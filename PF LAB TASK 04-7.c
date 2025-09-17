@@ -37,8 +37,8 @@ int main()
                 case 'm':
                     Cost=Cost+0.50;
                     break;
-                case 'L':
-                case 'l':
+                case 'W':
+                case 'w':
                     Cost=Cost+1.00;
                     break;
                 default:
@@ -99,3 +99,4 @@ int main()
         printf("Net Total: $%.2f\n", Cost);
     }
 }
+
